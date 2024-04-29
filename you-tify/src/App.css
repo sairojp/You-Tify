@@ -1,0 +1,212 @@
+.App {
+  text-align: center;
+}
+.main-Container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.description{
+  align-self: center;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: x-large;
+  margin: 30px;
+}
+.sub-container{
+  display: flex;
+}
+.center-div{
+  align-self: center;
+}
+.Description{
+  align-self: center;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: x-large;
+  margin: 30px;
+}
+.image-container{
+  align-self: center;
+}
+.button-container{
+  display: inline-flexbox;
+  flex-direction: row;
+  align-self:center;
+}
+button{
+  margin: 20px;
+  cursor: pointer;
+}
+.icon{
+  width: 170px;
+  height: auto;
+}
+.icon-spot{
+  width: 80px;
+  height: auto;
+}
+
+
+button {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+}
+
+button:hover {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+
+button:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+/* button:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+} */
+
+button:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+button:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+button:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+button:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+button:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+
+.interest-container{
+  display: flex;
+  margin:10px;
+  background-color: rgb(52, 50, 50);
+  width:80%;
+}
+.button-container{
+  display: flex;
+  margin: auto;
+}
+
+.interest-content{
+  display: flex;
+  flex-direction: column;
+  gap:8px;
+  font-family: sans-serif;
+  color:white;
+  padding:24px;
+  
+}
+.interest-description{
+  margin-top: -8px;
+  font-size: 14px;
+  color:rgb(147, 147, 147);
+}
+
+
+.thumbnails{
+  width: 90px;
+  border-radius: 20px;
+}
+
+/* Assuming you have a CSS file, for example, FormComponent.css */
+
+/* Assuming you have a CSS file, for example, FormComponent.css */
+
+/* Assuming you have a CSS file, for example, FormComponent.css */
+
+.form-container {
+  width: 400px; /* Adjust as needed */
+  margin: 100px auto; /* Center the form vertically and horizontally */
+  padding: 40px; /* Equal padding on all sides */
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input[type="text"]:focus,
+.form-group textarea:focus {
+  border-color: #007bff;
+}
+
+.form-group textarea {
+  height: 100px; /* Set the height as needed */
+}
+
+.form-group button {
+  width: 100%; /* Make the button full-width */
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+  background-color: #0056b3;
+}
