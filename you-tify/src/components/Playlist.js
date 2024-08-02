@@ -15,7 +15,7 @@ const [playlistId,setplaylistId ] = useState(null)
 const HandleGetPlaylist = () => {
   try{
   fetch(
-    `https://youtube.googleapis.com/youtube/v3/playlists?access_token=${tokens.accessTokenYoutube}&part=snippet%2CcontentDetails&maxResults=100&mine=true&key=AIzaSyBJTQ5QHixhvAgqmDjtVjn6OrZ4vvHS74M`,
+    `https://youtube.googleapis.com/youtube/v3/playlists?access_token=${tokens.accessTokenYoutube}&part=snippet%2CcontentDetails&maxResults=100&mine=true&key='api_key_placeholder'`,
     {}
   )
     .then((response) => response.json())
@@ -27,7 +27,7 @@ const HandleGetPlaylist = () => {
 
 const HandleGetPlaylistItems = (buttonState) => {
   setplaylistId(buttonState);
-  fetch(`https://youtube.googleapis.com/youtube/v3/playlistItems?access_token=${tokens.accessTokenYoutube}&part=snippet%2CcontentDetails&maxResults=100&playlistId=${buttonState}&key=AIzaSyBJTQ5QHixhvAgqmDjtVjn6OrZ4vvHS74M`,{
+  fetch(`https://youtube.googleapis.com/youtube/v3/playlistItems?access_token=${tokens.accessTokenYoutube}&part=snippet%2CcontentDetails&maxResults=100&playlistId=${buttonState}&key=api_key_placeholder`,{
 
   })
   .then(response => response.json())
