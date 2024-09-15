@@ -21,7 +21,6 @@ To sign up for a developer account use this link: https://developer.spotify.com/
 Or 
 Follow the instruction in : https://developer.spotify.com/documentation/web-api
 
-<img width="941" alt="Spotify Developer Account" src="https://user-images.githubusercontent.com/73921414/218345782-3e915464-6a37-4953-a668-41716469cd7f.PNG">
 
 ### Youtube Developer Account Setup
 To sign up for developer account use this link: https://console.developers.google.com/
