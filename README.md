@@ -38,17 +38,22 @@ setup for both accounts is mentioned above.
 
 3. `cd server` and create a env file with following fields as 
     PORT = 5000
+   
     GOOGLE_CLIENT_ID = 
+
     GOOGLE_CLIENT_SECRET =
+
     SPOTIFY_CLIENT_ID = 
+
     SPOTIFY_CLIENT_SECRET = 
-  Use the keys obtained from each sites.
 
-4. `cd server` and Run `npm install`, then start the server using `npm start`. 
+Use the keys obtained from each sites.
 
-5. `cd you-tify` and  Run `npm install` then `npm start` to start the react app. 
+5. `cd server` and Run `npm install`, then start the server using `npm start`. 
 
-6. Login into both of the accounts and use the app to transfer the music 
+6. `cd you-tify` and  Run `npm install` then `npm start` to start the react app. 
+
+7. Login into both of the accounts and use the app to transfer the music 
 
 
 ## Future Improvements 
